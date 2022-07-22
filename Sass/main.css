@@ -40,15 +40,21 @@ footer .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 1100px;
+  gap: 25px;
   margin: 0 auto;
 }
 .grid .grid-object {
   width: 350px;
   margin: 0;
 }
-.grid .pexel {
+.grid .grid-object .pexel {
+  position: relative;
   width: 350px;
   margin: 0;
+}
+.grid .grid-object .auteur {
+  margin: 0px;
+  font-size: 20px;
 }
 
 .welcome {
@@ -65,6 +71,7 @@ footer .footer {
 }
 
 .start {
+  padding-left: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */

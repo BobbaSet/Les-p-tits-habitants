@@ -2,14 +2,24 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1100px;
+    gap: 25px;
     margin: 0 auto;
 
     .grid-object{
+       
         width: 350px;
         margin: 0;
-    }
-    .pexel{
+        
+        .pexel{ 
+        position: relative; 
         width: 350px;
         margin: 0;
+    } 
+    
+    .auteur{
+        margin: 0px;
+        font-size: 20px;
     }
+    }
+   
 }
