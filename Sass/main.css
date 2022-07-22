@@ -6,4 +6,36 @@ main {
   width: 1200px;
   margin: 0 auto;
   background-color: white;
+}
+
+.navbar {
+  background-color: #76d7ae;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .liste {
+  display: flex;
+  list-style: none;
+}
+.navbar .liste .sous-liste {
+  padding-left: 10px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 30px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 30px;
+}
+
+.habitant {
+  padding: 25px;
+}
+.habitant .petit {
+  text-align: center;
+  font-size: 25px;
 }/*# sourceMappingURL=main.css.map */
